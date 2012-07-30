@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A189F1B15C4533500D1E7AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A189F1A15C4533500D1E7AE /* UIKit.framework */; };
+		0A189F1D15C4533500D1E7AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A189F1C15C4533500D1E7AE /* Foundation.framework */; };
+		0A189F1F15C4533500D1E7AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A189F1E15C4533500D1E7AE /* CoreGraphics.framework */; };
+		0A189F2515C4533500D1E7AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A189F2315C4533500D1E7AE /* InfoPlist.strings */; };
+		0A189F2715C4533500D1E7AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A189F2615C4533500D1E7AE /* main.m */; };
+		0A189F2B15C4533500D1E7AE /* QTKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A189F2A15C4533500D1E7AE /* QTKAppDelegate.m */; };
+		0A189F2E15C4533500D1E7AE /* QTKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A189F2D15C4533500D1E7AE /* QTKViewController.m */; };
+		0A189F3115C4533500D1E7AE /* QTKViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A189F2F15C4533500D1E7AE /* QTKViewController_iPhone.xib */; };
+		0A189F3415C4533500D1E7AE /* QTKViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A189F3215C4533500D1E7AE /* QTKViewController_iPad.xib */; };
+		0A189F3C15C456E400D1E7AE /* QTKPathHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A189F3B15C456E400D1E7AE /* QTKPathHelpers.m */; };
+		0A5C8A2115C4E31100E8EE31 /* QTKTodo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C8A2015C4E31100E8EE31 /* QTKTodo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A189F1615C4533500D1E7AE /* FileStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A189F1A15C4533500D1E7AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A189F1C15C4533500D1E7AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A189F1E15C4533500D1E7AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A189F2215C4533500D1E7AE /* FileStorage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FileStorage-Info.plist"; sourceTree = "<group>"; };
+		0A189F2415C4533500D1E7AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A189F2615C4533500D1E7AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A189F2815C4533500D1E7AE /* FileStorage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FileStorage-Prefix.pch"; sourceTree = "<group>"; };
+		0A189F2915C4533500D1E7AE /* QTKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTKAppDelegate.h; sourceTree = "<group>"; };
+		0A189F2A15C4533500D1E7AE /* QTKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTKAppDelegate.m; sourceTree = "<group>"; };
+		0A189F2C15C4533500D1E7AE /* QTKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTKViewController.h; sourceTree = "<group>"; };
+		0A189F2D15C4533500D1E7AE /* QTKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTKViewController.m; sourceTree = "<group>"; };
+		0A189F3015C4533500D1E7AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QTKViewController_iPhone.xib; sourceTree = "<group>"; };
+		0A189F3315C4533500D1E7AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QTKViewController_iPad.xib; sourceTree = "<group>"; };
+		0A189F3A15C456E400D1E7AE /* QTKPathHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTKPathHelpers.h; sourceTree = "<group>"; };
+		0A189F3B15C456E400D1E7AE /* QTKPathHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTKPathHelpers.m; sourceTree = "<group>"; };
+		0A5C8A1F15C4E31100E8EE31 /* QTKTodo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTKTodo.h; sourceTree = "<group>"; };
+		0A5C8A2015C4E31100E8EE31 /* QTKTodo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTKTodo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A189F1315C4533500D1E7AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A189F1B15C4533500D1E7AE /* UIKit.framework in Frameworks */,
+				0A189F1D15C4533500D1E7AE /* Foundation.framework in Frameworks */,
+				0A189F1F15C4533500D1E7AE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A189F0B15C4533500D1E7AE = {
+			isa = PBXGroup;
+			children = (
+				0A189F2015C4533500D1E7AE /* FileStorage */,
+				0A189F1915C4533500D1E7AE /* Frameworks */,
+				0A189F1715C4533500D1E7AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A189F1715C4533500D1E7AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A189F1615C4533500D1E7AE /* FileStorage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A189F1915C4533500D1E7AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A189F1A15C4533500D1E7AE /* UIKit.framework */,
+				0A189F1C15C4533500D1E7AE /* Foundation.framework */,
+				0A189F1E15C4533500D1E7AE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A189F2015C4533500D1E7AE /* FileStorage */ = {
+			isa = PBXGroup;
+			children = (
+				0A189F3A15C456E400D1E7AE /* QTKPathHelpers.h */,
+				0A189F3B15C456E400D1E7AE /* QTKPathHelpers.m */,
+				0A189F2915C4533500D1E7AE /* QTKAppDelegate.h */,
+				0A189F2A15C4533500D1E7AE /* QTKAppDelegate.m */,
+				0A189F2C15C4533500D1E7AE /* QTKViewController.h */,
+				0A189F2D15C4533500D1E7AE /* QTKViewController.m */,
+				0A189F2F15C4533500D1E7AE /* QTKViewController_iPhone.xib */,
+				0A189F3215C4533500D1E7AE /* QTKViewController_iPad.xib */,
+				0A189F2115C4533500D1E7AE /* Supporting Files */,
+				0A5C8A1F15C4E31100E8EE31 /* QTKTodo.h */,
+				0A5C8A2015C4E31100E8EE31 /* QTKTodo.m */,
+			);
+			path = FileStorage;
+			sourceTree = "<group>";
+		};
+		0A189F2115C4533500D1E7AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A189F2215C4533500D1E7AE /* FileStorage-Info.plist */,
+				0A189F2315C4533500D1E7AE /* InfoPlist.strings */,
+				0A189F2615C4533500D1E7AE /* main.m */,
+				0A189F2815C4533500D1E7AE /* FileStorage-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A189F1515C4533500D1E7AE /* FileStorage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A189F3715C4533500D1E7AE /* Build configuration list for PBXNativeTarget "FileStorage" */;
+			buildPhases = (
+				0A189F1215C4533500D1E7AE /* Sources */,
+				0A189F1315C4533500D1E7AE /* Frameworks */,
+				0A189F1415C4533500D1E7AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FileStorage;
+			productName = FileStorage;
+			productReference = 0A189F1615C4533500D1E7AE /* FileStorage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A189F0D15C4533500D1E7AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QTK;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Q Technology Company";
+			};
+			buildConfigurationList = 0A189F1015C4533500D1E7AE /* Build configuration list for PBXProject "FileStorage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A189F0B15C4533500D1E7AE;
+			productRefGroup = 0A189F1715C4533500D1E7AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A189F1515C4533500D1E7AE /* FileStorage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A189F1415C4533500D1E7AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A189F2515C4533500D1E7AE /* InfoPlist.strings in Resources */,
+				0A189F3115C4533500D1E7AE /* QTKViewController_iPhone.xib in Resources */,
+				0A189F3415C4533500D1E7AE /* QTKViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A189F1215C4533500D1E7AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A189F2715C4533500D1E7AE /* main.m in Sources */,
+				0A189F2B15C4533500D1E7AE /* QTKAppDelegate.m in Sources */,
+				0A189F2E15C4533500D1E7AE /* QTKViewController.m in Sources */,
+				0A189F3C15C456E400D1E7AE /* QTKPathHelpers.m in Sources */,
+				0A5C8A2115C4E31100E8EE31 /* QTKTodo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A189F2315C4533500D1E7AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A189F2415C4533500D1E7AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A189F2F15C4533500D1E7AE /* QTKViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A189F3015C4533500D1E7AE /* en */,
+			);
+			name = QTKViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		0A189F3215C4533500D1E7AE /* QTKViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A189F3315C4533500D1E7AE /* en */,
+			);
+			name = QTKViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A189F3515C4533500D1E7AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A189F3615C4533500D1E7AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A189F3815C4533500D1E7AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FileStorage/FileStorage-Prefix.pch";
+				INFOPLIST_FILE = "FileStorage/FileStorage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A189F3915C4533500D1E7AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FileStorage/FileStorage-Prefix.pch";
+				INFOPLIST_FILE = "FileStorage/FileStorage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A189F1015C4533500D1E7AE /* Build configuration list for PBXProject "FileStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A189F3515C4533500D1E7AE /* Debug */,
+				0A189F3615C4533500D1E7AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A189F3715C4533500D1E7AE /* Build configuration list for PBXNativeTarget "FileStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A189F3815C4533500D1E7AE /* Debug */,
+				0A189F3915C4533500D1E7AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A189F0D15C4533500D1E7AE /* Project object */;
+}
